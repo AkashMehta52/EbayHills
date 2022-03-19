@@ -1,0 +1,74 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.ComboBox?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.SplitPane?>
+<?import javafx.scene.control.TextArea?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
+
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="600.0" prefWidth="800.0" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientMainController">
+   <children>
+      <SplitPane dividerPositions="0.3433583959899749" layoutX="-1.0" layoutY="-1.0" prefHeight="609.0" prefWidth="807.0">
+        <items>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="598.0" prefWidth="302.0" style="-fx-background-color: #FFFFFF;">
+               <children>
+                  <ImageView fitHeight="150.0" fitWidth="271.0" pickOnBounds="true" preserveRatio="true" />
+                  <ImageView fitHeight="127.0" fitWidth="271.0">
+                     <image>
+                        <Image url="@img/Logo.png" />
+                     </image>
+                  </ImageView>
+                  <ComboBox fx:id="itemSelector" layoutX="32.0" layoutY="150.0" onMouseClicked="#handleItemSelector" prefHeight="35.0" prefWidth="211.0" promptText="Bidding Item" style="-fx-background-color: #ffbc5c;" />
+                  <TextField fx:id="highestBidVal" editable="false" layoutX="165.0" layoutY="250.0" prefHeight="35.0" prefWidth="78.0" promptText="Highest Bid" />
+                  <Label layoutX="36.0" layoutY="259.0" text="Current Highest Bid($):" />
+                  <Label layoutX="38.0" layoutY="360.0" text="Enter your bid($):" />
+                  <TextField fx:id="userBidVal" layoutX="140.0" layoutY="351.0" prefHeight="35.0" prefWidth="101.0" promptText="your bid!" />
+                  <Button fx:id="placeButton" layoutX="36.0" layoutY="403.0" mnemonicParsing="false" onAction="#handlePlaceButton" prefHeight="35.0" prefWidth="81.0" style="-fx-background-color: #ffbc5c;" text="Place Bid!" textFill="WHITE" />
+                  <Label fx:id="bidValidation" layoutX="42.0" layoutY="446.0" prefHeight="35.0" prefWidth="271.0" textFill="RED" />
+                  <Label layoutX="39.0" layoutY="310.0" text="Minimum Item Bid($):" />
+                  <TextField fx:id="minBidVal" editable="false" layoutX="165.0" layoutY="301.0" prefHeight="35.0" prefWidth="78.0" promptText="Minimum" />
+                  <Button fx:id="historyButton" layoutX="150.0" layoutY="403.0" mnemonicParsing="false" onAction="#handleHistoryButton" prefHeight="35.0" prefWidth="81.0" style="-fx-background-color: #ffbc5c;" text="History" textFill="#f0efef" />
+                  <Button fx:id="selectItemButton" layoutX="32.0" layoutY="199.0" mnemonicParsing="false" onAction="#handleSelectButton" prefHeight="25.0" prefWidth="211.0" style="-fx-background-color: #ffbc5c;" text="Select Item!" textFill="#f5f4f4" />
+               </children>
+            </AnchorPane>
+          <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="561.0" prefWidth="526.0" style="-fx-background-color: #48a49c;">
+               <children>
+                  <Button fx:id="signOutButton" layoutX="431.0" layoutY="14.0" mnemonicParsing="false" onAction="#handleSignOut" prefHeight="35.0" prefWidth="81.0" style="-fx-background-color: #ffbc5c;" text="Sign Out" textFill="WHITE" />
+                  <Label fx:id="userInfo" layoutX="22.0" layoutY="14.0" prefHeight="35.0" prefWidth="317.0" text="Hello User: ">
+                     <font>
+                        <Font size="16.0" />
+                     </font>
+                  </Label>
+                  <ImageView fx:id="itemImage" fitHeight="186.0" fitWidth="360.0" layoutX="86.0" layoutY="135.0" pickOnBounds="true" preserveRatio="true">
+                     <image>
+                        <Image url="@img/Logo.png" />
+                     </image>
+                  </ImageView>
+                  <TextArea fx:id="itemDescription" editable="false" layoutX="174.0" layoutY="371.0" prefHeight="158.0" prefWidth="200.0" promptText="Item Description" wrapText="true">
+                     <font>
+                        <Font size="14.0" />
+                     </font>
+                  </TextArea>
+                  <TextField fx:id="curItemLabel" editable="false" layoutX="189.0" layoutY="85.0" prefHeight="35.0" prefWidth="179.0" promptText="Current Item">
+                     <font>
+                        <Font size="13.0" />
+                     </font>
+                  </TextField>
+                  <Label fx:id="soldLabel" layoutX="96.0" layoutY="301.0" prefHeight="51.0" prefWidth="360.0" textAlignment="CENTER" textFill="#ff0c0c">
+                     <font>
+                        <Font name="System Bold" size="19.0" />
+                     </font>
+                  </Label>
+                  <Label layoutX="175.0" layoutY="538.0" text="Instant Buy Price:" textFill="#fdfdfd" />
+                  <TextField fx:id="instantBuyField" editable="false" layoutX="282.0" layoutY="534.0" prefHeight="25.0" prefWidth="92.0" promptText="Instant Buy!" />
+               </children>
+            </AnchorPane>
+        </items>
+      </SplitPane>
+   </children>
+</AnchorPane>

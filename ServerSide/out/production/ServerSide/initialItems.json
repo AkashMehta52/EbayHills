@@ -1,0 +1,66 @@
+[
+	{
+		"itemName": "Pokemon Cards",
+		"minPrice": 200.00,
+		"description": "Lot of 100 rare Pokemon cards",
+		"closed": null,
+		"bidsTilClosed": 5,
+		"instantSellPrice": 500.00,
+		"imageURL": "https://assets.dicebreaker.com/pokemon-tcg-online-card-library.png/BROK/resize/600x300%3E/format/jpg/quality/70/pokemon-tcg-online-card-library.png"
+
+	},
+	{
+		"itemName": "Yugioh Cards",
+		"minPrice": 10.00,
+		"description": "Lot of 100 random Yugioh cards",
+		"closed": null,
+		"bidsTilClosed": 5,
+		"instantSellPrice": 50.00,
+		"imageURL": "https://publish.one37pm.net/wp-content/uploads/2020/07/yugioh-mobile.jpg"
+	},
+	{
+		"itemName": "Bakugan",
+		"minPrice": 15.96,
+		"description": "One really cool Bakugan that my kids love",
+		"closed": null,
+		"bidsTilClosed": 5,
+		"instantSellPrice": 60.00,
+		"imageURL": "https://i5.walmartimages.com/asr/322a49e4-fa32-4f58-ae4d-0eab3beb0a67.cec5455003bab071cea83a4b5766f607.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF"
+	},
+	{
+		"itemName": "Microsoft Surface Pro 6",
+		"minPrice": 650.00,
+		"description": "i5, 256 gb SSD, 8gb RAM",
+		"closed": null,
+		"bidsTilClosed": 5,
+		"instantSellPrice": 1500.00,
+		"imageURL": "https://www.cnet.com/a/img/resize/67bc2d9ead0d03a7799d94e40d73241fd3fdedc3/hub/2018/10/12/1a94112b-dddf-4608-b042-27d7c3b62ee9/29-microsoft-surface-pro-6.jpg?auto=webp&width=768"
+	},
+	{
+		"itemName": "Keychron K6 Mechanical Keyboard 60%",
+		"minPrice": 85.96,
+		"description": "Mechanical keyboard, linear red switches",
+		"closed": null,
+		"bidsTilClosed": 5,
+		"instantSellPrice": 150.00,
+		"imageURL": "https://m.media-amazon.com/images/I/51tMFoV5zIL._AC_SY450_.jpg"
+	},
+	{
+		"itemName": "Hand-poured Candle",
+		"minPrice": 6.00,
+		"description": "Hand poured soy wax candle, scented using essential oils",
+		"closed": null,
+		"bidsTilClosed": 5,
+		"instantSellPrice": 30.00,
+		"imageURL": "https://post.healthline.com/wp-content/uploads/2020/12/865887-3-Considerations-for-Nontoxic-Clean-Burning-Candles-%E2%80%94-and-What-That-Really-Means-1200x628-Facebook-1200x628.jpg"
+	},
+	{
+		"itemName": "Sony Camera",
+		"minPrice": 12.00,
+		"description": "Sony Camera I found in my house",
+		"closed": null,
+		"bidsTilClosed": 5,
+		"instantSellPrice": 50.00,
+		"imageURL": "https://media.wired.com/photos/5d31f0327e21db0008efc4ee/master/pass/Gear-Sony-RX100VI-SOURCE-Sony.jpg"
+	}
+]

@@ -1,0 +1,68 @@
+<?xml version="1.0" encoding="UTF-8"?>
+
+<?import javafx.scene.control.Button?>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.PasswordField?>
+<?import javafx.scene.control.TextField?>
+<?import javafx.scene.image.Image?>
+<?import javafx.scene.image.ImageView?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.layout.BorderPane?>
+<?import javafx.scene.text.Font?>
+
+<BorderPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="524.0" prefWidth="763.0" style="-fx-background-color: #44a49c;" xmlns="http://javafx.com/javafx/17" xmlns:fx="http://javafx.com/fxml/1" fx:controller="ClientLoginController">
+   <right>
+      <AnchorPane prefHeight="553.0" prefWidth="377.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="88.0" fitWidth="220.0" layoutX="102.0" layoutY="53.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/logintext.png" />
+               </image>
+            </ImageView>
+            <Label layoutX="17.0" layoutY="168.0" prefHeight="38.0" prefWidth="109.0" text="Username" textFill="#f0f0f0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Label layoutX="17.0" layoutY="226.0" prefHeight="36.0" prefWidth="95.0" text="Password" textFill="#f0f0f0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <TextField fx:id="username" layoutX="115.0" layoutY="169.0" prefHeight="37.0" prefWidth="215.0" promptText="Username" />
+            <Button fx:id="loginButton" layoutX="115.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleLoginButton" prefHeight="34.0" prefWidth="73.0" style="-fx-background-color: #ffb05c;" text="Enter" textFill="#f5f5f7">
+               <font>
+                  <Font size="15.0" />
+               </font></Button>
+            <Label layoutX="19.0" layoutY="466.0" text="Or, Sign in as" textFill="#f0f0f0">
+               <font>
+                  <Font size="18.0" />
+               </font>
+            </Label>
+            <Button id="guestSignIn" fx:id="guestSignIn" layoutX="133.0" layoutY="465.0" mnemonicParsing="false" onAction="#handleGuestSignIn" prefHeight="29.0" prefWidth="63.0" style="-fx-background-color: #ffb05c;" text="Guest" textFill="#fafafa">
+               <font>
+                  <Font size="14.0" />
+               </font>
+            </Button>
+            <Label fx:id="wrongLogin" layoutX="121.0" layoutY="141.0" textFill="#ff0202" />
+            <PasswordField fx:id="password" layoutX="115.0" layoutY="226.0" prefHeight="36.0" prefWidth="216.0" promptText="Password" />
+            <Button fx:id="signUpButton" layoutX="258.0" layoutY="283.0" mnemonicParsing="false" onAction="#handleSignUpButton" prefHeight="34.0" prefWidth="73.0" style="-fx-background-color: #ffb05c;" text="Sign Up" textFill="#f5f5f7">
+               <font>
+                  <Font size="15.0" />
+               </font>
+            </Button>
+         </children>
+      </AnchorPane>
+   </right>
+   <left>
+      <AnchorPane prefHeight="200.0" prefWidth="200.0" BorderPane.alignment="CENTER">
+         <children>
+            <ImageView fitHeight="524.0" fitWidth="417.0" pickOnBounds="true" preserveRatio="true">
+               <image>
+                  <Image url="@img/BuySellTasty.jpg" />
+               </image>
+            </ImageView>
+         </children>
+      </AnchorPane>
+   </left>
+</BorderPane>

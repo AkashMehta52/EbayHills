@@ -1,0 +1,39 @@
+{
+	[
+		{
+			"itemName": "Pokemon Cards",
+			"minPrice": "200.00",
+			"description": "Lot of 100 rare Pokemon cards"
+		},
+		{
+			"itemName": "Yugioh Cards",
+			"minPrice": "10.00",
+			"description": "Lot of 100 randmom Yugioh cards"
+		},
+		{
+			"itemName": "Bakugan",
+			"minPrice": "15.96",
+			"description": "One really cool Bakugan that my kids love"
+		},
+		{
+			"itemName": "Microsoft Surface Pro 6",
+			"minPrice": "650.00",
+			"description": "i5, 256 gb SSD, 8gb RAM"
+		},
+		{
+			"itemName": "Keychron K6 Mechanical Keyboard 60%",
+			"minPrice": "85.96",
+			"description": "Mechanical keyboard, linear red switches"
+		},
+		{
+			"itemName": "Hand-poured Candle",
+			"minPrice": "6.00",
+			"description": "Hand poured soy wax candle, scented using essential oils"
+		},
+		{
+			"itemName": "Sony Camera",
+			"minPrice": "12.00",
+			"description": "Sony Camera I found in my house"
+		},
+	]
+}
